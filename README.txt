@@ -1,0 +1,3 @@
+The current input files are set up for a model to run with velocity data generated from C2VSimFG (IWFM based) model. Velocity file is not included due to the size of the file. 
+
+To set up using Visual Studios, three folders, Input, Output, and Src. Input files should be placed under Input folder, and the source codes should be placed under Src folder. Model output is written to the Output folder. 

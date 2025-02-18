@@ -1,0 +1,4 @@
+2                     #iflg_vel=1 => velocity from cell/element (MODFLOW), iflg_vel=2 =>velocity from FEM node (IWFM)
+2                     # 1-steady state velocity   2-transient velocity from IWFM
+C2VSimFG_GW_VelocityTecPlot.out      # Name of the velocity file (IWFM Tecplot output) 
+0.01135             (Convervsion factor for velocity  to m/day from ft/mon  0.01135; )							

@@ -1,0 +1,18 @@
+15330	Simulation duration (days)
+30		Delta_T in (days)
+12		No: of time steps skiped for output (output ~annually 73*5=365)
+4               Number of Layers
+300.0		Grid spacing in X-direction-dx (m)
+300.0		Grid spacing in Y-direction-dy (m)
+0              (0> dz; == 0 Read from file) 
+1	        Number of release locations
+665786.0,  4210606.0 -50, 14906 , 100.0, 1000.0, 1, 15330       Release location-1 (x,y,z, Element, Source Concentration (mg/l=ppm=g/m3),Source volumetric flow rate/injection rate (m3/day), starting time of the spill (day) , end time of the spill(day) ) 
+656378.0   4195234.0   -1500.00     Lower left corner of the domain (cell (1,1,1) is the lower left corner
+683270.0   4221055.0    1000.00 Upper right corner of the domain (cell (1,1) is the upper left corner
+2		Release Type (1=Instantaneous release, 2=Continous Release)
+1000000		No of parcels
+
+#666305.0,  4210331.0 -50, 14906 , 1000.0, 5000.0, 1, 15330       Release location-1 (x,y,z, Source Concentration (mg/l=ppm=g/m3),Source volumetric flow rate/injection rate (m3/day), starting time of the spill (day) , end time of the spill(day) ) 
+#666192.0,  4210935.0 -50, 14906 , 1000.0, 10000.0, 1, 15330       Release location-1 (x,y,z, Source Concentration (mg/l=ppm=g/m3),Source volumetric flow rate/injection rate (m3/day), starting time of the spill (day) , end time of the spill(day) ) 
+#666286.0,  4210294.0 -50, 14906 , 1000.0, 10000.0, 1, 15330       Release location-1 (x,y,z, Source Concentration (mg/l=ppm=g/m3),Source volumetric flow rate/injection rate (m3/day), starting time of the spill (day) , end time of the spill(day) ) 
+

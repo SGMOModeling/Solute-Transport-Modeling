@@ -1,0 +1,16 @@
+30.0		Longitudinal Dispersivity (m)
+1.0		Ratio of Horizontal Transverse to Longitudinal Dispersivity
+1.0		Ratio of Vertical Transverse to Longitudinal Dispersivity
+0.3             Porosity
+C2VSimFG_Stratigraphy.dat  # Layer elevation file from C2VSimFG info
+1               Velocity format (0:single velocity for the entire domain; 1=velocity data based on a flow model mesh) 
+C2VSimFG_GW_Vel.txt        # Name of the velocity file   
+C2VSimFG_ElementsNoHdr.dat     # Element file 
+C2VSimFG_NodesNoHdr.dat         # Node file
+1               # Output format (1: all time series in one file, 2: multiple time series files)
+0                       (Pumping file available=1 ; not available =0)
+PumpingWellsRMA.txt                      #Location of the pumping wells
+
+
+#IBOUND_RMA.txt             # IBOUND File-active boundary-not active yet
+
